@@ -1,0 +1,45 @@
+# IO.Swagger.Model.Oferta
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**IdOferta** | **string** | Identificador da oferta. | [optional] 
+**OrigemOferta** | **string** | Origem da oferta. | [optional] 
+**DataVencimentoPrimeiraParcela** | **DateTime?** | Data de vencimento da 1ª parcela. | [optional] 
+**DataVencimentoUltimaParcela** | **DateTime?** | Data de vencimento da última parcela. | [optional] 
+**CetAnual** | **double?** | Valor CET anual. | [optional] 
+**CetMensal** | **double?** | Valor CET mensal. | [optional] 
+**DataMovimento** | **DateTime?** | Data do movimento. | [optional] 
+**CodigoPlano** | **string** | Código do plano utilizada na simulação. | [optional] 
+**DescricaoPlano** | **string** | Descrição do plano utilizado na simulação. | [optional] 
+**CodigoProduto** | **string** | Código do produto utilizado na simulação. | [optional] 
+**DescricaoProduto** | **string** | Descrição do produto utilizado na simulação. | [optional] 
+**DataEmissao** | **DateTime?** | Data da emissão. | [optional] 
+**FinanciadoIndice** | **double?** | Valor financiado índice. | [optional] 
+**FinioFSeguro** | **double?** | Valor finio seguro. | [optional] 
+**IdProdutoSeguro** | **long?** | Identificador do produto do seguro. | [optional] 
+**ValorIOF** | **double?** | Valor Final do IOF. | [optional] 
+**Prazo** | **int?** | Prazo / Qtd de Parcelas utilizada na simulação. | [optional] 
+**ValorPrimeiraPrestacao** | **double?** | Valor da 1ª prestação. | [optional] 
+**Seguradora** | **string** | seguradora. | [optional] 
+**Seguro** | **double?** | Valor do seguro. | [optional] 
+**ValorTAC** | **double?** | Valor do TAC. | [optional] 
+**ValorTaxa** | **double?** | Valor da Taxa. | [optional] 
+**ValorTaxaAnual** | **double?** | Valor da Taxa anual. | [optional] 
+**ValorCompra** | **double?** | Valor da compra. Resultante pela PMT ou utilizado no cálculo da simulação. | [optional] 
+**ValorCredito** | **double?** | Valor do crédito. | [optional] 
+**ValorFinanciado** | **double?** | Valor financiado. | [optional] 
+**ValorLiberado** | **double?** | Valor liberado. | [optional] 
+**ValorLiquidar** | **double?** | Valor a liquidar. | [optional] 
+**ValorParcela** | **double?** | Valor da parcela. | [optional] 
+**ValorSeguro** | **double?** | Valor Final do Seguro (se foi solicitado seguro). | [optional] 
+**ValorTaxaInclusao** | **double?** | Valor da taxa de inclusão. | [optional] 
+**ValorTaxaRenovacao** | **double?** | Valor da taxa de renovação. | [optional] 
+**ValorTotal** | **double?** | Valor do total com Juros (soma de todas as PMTs). | [optional] 
+**ValorTotalPST** | **double?** | Valor do total PST. | [optional] 
+**ExpiradaFaixaTarifaInclusao** | **IndicativoSimNao** |  | [optional] 
+**SugeridoFaixaRetorno** | **IndicativoSimNao** |  | [optional] 
+**TipoSimulacao** | **TipoSimulacao** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
